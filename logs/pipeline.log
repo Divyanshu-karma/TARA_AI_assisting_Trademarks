@@ -1,0 +1,125 @@
+2026-03-01 01:10:17,392 | INFO | trademark_engine | Starting full trademark examination pipeline.
+2026-03-01 01:10:17,392 | INFO | trademark_engine | Running Pillar 1 � Classification Engine.
+2026-03-01 01:10:17,577 | INFO | trademark_engine | Running Pillar 2 � Identification Engine.
+2026-03-01 01:31:37,862 | INFO | trademark_engine | Starting full trademark examination pipeline.
+2026-03-01 01:31:37,862 | INFO | trademark_engine | Running Pillar 1 � Classification Engine.
+2026-03-01 01:31:38,066 | INFO | trademark_engine | Running Pillar 2 � Identification Engine.
+2026-03-01 01:39:13,735 | INFO | trademark_engine | Starting full trademark examination pipeline.
+2026-03-01 01:39:13,736 | INFO | trademark_engine | Running Pillar 1 � Classification Engine.
+2026-03-01 01:39:13,842 | INFO | trademark_engine | Running Pillar 2 � Identification Engine.
+2026-03-01 01:39:13,844 | INFO | trademark_engine | Running Pillar 3 � Multi-Class Engine.
+2026-03-01 01:53:06,738 | INFO | trademark_engine | Starting full trademark examination pipeline.
+2026-03-01 01:53:06,738 | INFO | trademark_engine | Running Pillar 1 � Classification Engine.
+2026-03-01 01:53:06,915 | INFO | trademark_engine | Running Pillar 2 � Identification Engine.
+2026-03-01 01:53:06,926 | INFO | trademark_engine | Running Pillar 3 � Multi-Class Engine.
+2026-03-01 02:00:13,733 | INFO | trademark_engine | Starting full trademark examination pipeline.
+2026-03-01 02:00:13,733 | INFO | trademark_engine | Running Pillar 1 � Classification Engine.
+2026-03-01 02:00:13,921 | INFO | trademark_engine | Running Pillar 2 � Identification Engine.
+2026-03-01 02:00:13,921 | INFO | trademark_engine | Running Pillar 3 � Multi-Class Engine.
+2026-03-01 02:00:13,930 | INFO | trademark_engine | Pipeline complete. Structural clean: False
+2026-03-01 02:08:04,264 | INFO | trademark_engine | Starting full trademark examination pipeline.
+2026-03-01 02:08:04,269 | INFO | trademark_engine | Running Pillar 1 � Classification Engine.
+2026-03-01 02:08:04,448 | INFO | trademark_engine | Running Pillar 2 � Identification Engine.
+2026-03-01 02:08:04,456 | INFO | trademark_engine | Running Pillar 3 � Multi-Class Engine.
+2026-03-01 02:08:04,456 | INFO | trademark_engine | Pipeline complete. Structural clean: False
+2026-03-01 02:08:04,460 | INFO | trademark_engine | Pipeline result saved to storage\99094422.json
+2026-03-01 14:15:30 | INFO     | __main__ | ============================================================
+2026-03-01 14:15:30 | INFO     | __main__ | USPTO TRADEMARK EXAMINATION PIPELINE — START
+2026-03-01 14:15:30 | INFO     | __main__ | ============================================================
+2026-03-01 14:15:30 | INFO     | __main__ | [Stage 0] Input Layer — parsing & normalising.
+2026-03-01 14:17:33 | INFO     | __main__ | ============================================================
+2026-03-01 14:17:33 | INFO     | __main__ | USPTO TRADEMARK EXAMINATION PIPELINE — START
+2026-03-01 14:17:33 | INFO     | __main__ | ============================================================
+2026-03-01 14:17:33 | INFO     | __main__ | [Stage 0] Input Layer — parsing & normalising.
+2026-03-01 16:35:21 | INFO     | __main__ | ============================================================
+2026-03-01 16:35:21 | INFO     | __main__ | USPTO TRADEMARK EXAMINATION PIPELINE — START
+2026-03-01 16:35:21 | INFO     | __main__ | ============================================================
+2026-03-01 16:35:21 | INFO     | __main__ | [Stage 0] Input Layer — parsing & normalising.
+2026-03-01 16:54:59 | INFO     | __main__ | ============================================================
+2026-03-01 16:54:59 | INFO     | __main__ | USPTO TRADEMARK EXAMINATION PIPELINE — START
+2026-03-01 16:54:59 | INFO     | __main__ | ============================================================
+2026-03-01 16:54:59 | INFO     | __main__ | [Stage 0] Input Layer — parsing & normalising.
+2026-03-01 16:59:52 | INFO     | __main__ | ============================================================
+2026-03-01 16:59:52 | INFO     | __main__ | USPTO TRADEMARK EXAMINATION PIPELINE — START
+2026-03-01 16:59:52 | INFO     | __main__ | ============================================================
+2026-03-01 16:59:52 | INFO     | __main__ | [Stage 0] Input Layer — parsing & normalising.
+2026-03-01 16:59:52 | INFO     | __main__ |   Mark: 'ADAMS APPLE' | Serial: 87654321 | Classes: 1
+2026-03-01 16:59:52 | INFO     | __main__ | [Stage 1] Pillar 1 — §1401 Classification Engine.
+2026-03-01 16:59:52 | INFO     | __main__ |   Errors: 2
+2026-03-01 16:59:52 | INFO     | __main__ | [Stage 2] Pillar 2 — §1402 Identification Engine.
+2026-03-01 16:59:52 | INFO     | __main__ |   Classes processed: 1
+2026-03-01 16:59:52 | INFO     | __main__ | [Stage 3] Pillar 3 — §1403 Multi-Class Engine.
+2026-03-01 16:59:52 | INFO     | __main__ |   Compliant: True | Errors: 0
+2026-03-01 16:59:52 | INFO     | __main__ | [Stage 4] Building PipelineState (1st→2nd half bridge).
+2026-03-01 16:59:52 | INFO     | __main__ |   Structurally clean: False
+2026-03-01 16:59:52 | INFO     | __main__ | [Stage 5] StructuralToSubstantiveGate — computing gate flags.
+2026-03-01 16:59:52 | INFO     | __main__ |   Gate [§704.02 Search        ] ✗ BLOCKED
+2026-03-01 16:59:52 | INFO     | __main__ |     → Pillar 1 classification errors (2) — scope unstable. §1401.
+2026-03-01 16:59:52 | INFO     | __main__ |   Gate [§1207/§1209 Subst.    ] ✗ BLOCKED
+2026-03-01 16:59:52 | INFO     | __main__ |     → Pillar 1 classification errors (2) — scope unstable. §1401. | Identification indefinite in one or more classes — §1207/§1209 cannot run on indefinite goods/services. §1402.
+2026-03-01 16:59:52 | INFO     | __main__ |   Gate [§904 Specimen         ] ✗ BLOCKED
+2026-03-01 16:59:52 | INFO     | __main__ |     → Pillar 1 classification errors (2) — scope unstable. §1401. | Identification indefinite in one or more classes — §1207/§1209 cannot run on indefinite goods/services. §1402.
+2026-03-01 16:59:52 | INFO     | __main__ | [Stage 6] Running 2nd-half engines.
+2026-03-01 16:59:52 | INFO     | __main__ |   Status: blocked_at_search_gate | Ran: []
+2026-03-01 17:26:42 | INFO     | __main__ | ============================================================
+2026-03-01 17:26:42 | INFO     | __main__ | USPTO TRADEMARK EXAMINATION PIPELINE — START
+2026-03-01 17:26:42 | INFO     | __main__ | ============================================================
+2026-03-01 17:26:42 | INFO     | __main__ | [Stage 0] Input Layer — parsing & normalising.
+2026-03-01 17:26:42 | INFO     | __main__ |   Mark: 'ADAMS APPLE' | Serial: 87654321 | Classes: 1
+2026-03-01 17:26:42 | INFO     | __main__ | [Stage 1] Pillar 1 — §1401 Classification Engine.
+2026-03-01 17:26:42 | INFO     | __main__ |   Errors: 2
+2026-03-01 17:26:42 | INFO     | __main__ | [Stage 2] Pillar 2 — §1402 Identification Engine.
+2026-03-01 17:26:42 | INFO     | __main__ |   Classes processed: 1
+2026-03-01 17:26:42 | INFO     | __main__ | [Stage 3] Pillar 3 — §1403 Multi-Class Engine.
+2026-03-01 17:42:23 | INFO     | __main__ | ============================================================
+2026-03-01 17:42:23 | INFO     | __main__ | USPTO TRADEMARK EXAMINATION PIPELINE — START
+2026-03-01 17:42:23 | INFO     | __main__ | ============================================================
+2026-03-01 17:42:23 | INFO     | __main__ | [Stage 0] Input Layer — parsing & normalising.
+2026-03-01 17:42:23 | INFO     | __main__ |   Mark: 'ADAMS APPLE' | Serial: 87654321 | Classes: 1
+2026-03-01 17:42:23 | INFO     | __main__ | [Stage 1] Pillar 1 — §1401 Classification Engine.
+2026-03-01 17:42:23 | INFO     | __main__ |   Errors: 2
+2026-03-01 17:42:23 | INFO     | __main__ | [Stage 2] Pillar 2 — §1402 Identification Engine.
+2026-03-01 17:42:23 | INFO     | __main__ |   Classes processed: 1
+2026-03-01 17:42:23 | INFO     | __main__ | [Stage 3] Pillar 3 — §1403 Multi-Class Engine.
+2026-03-01 17:42:23 | INFO     | __main__ |   Compliant: True | Errors: 0
+2026-03-01 17:42:23 | INFO     | __main__ | [Stage 4] Building PipelineState (1st→2nd half bridge).
+2026-03-01 17:42:23 | INFO     | __main__ |   Structurally clean: False
+2026-03-01 17:42:23 | INFO     | __main__ | [Stage 5] StructuralToSubstantiveGate — computing gate flags.
+2026-03-01 17:42:23 | INFO     | __main__ |   Gate [§704.02 Search        ] ✗ BLOCKED
+2026-03-01 17:42:23 | INFO     | __main__ |     → Pillar 1 classification errors (2) — scope unstable. §1401.
+2026-03-01 17:42:23 | INFO     | __main__ |   Gate [§1207/§1209 Subst.    ] ✗ BLOCKED
+2026-03-01 17:42:23 | INFO     | __main__ |     → Pillar 1 classification errors (2) — scope unstable. §1401. | Identification indefinite in one or more classes — §1207/§1209 cannot run on indefinite goods/services. §1402.
+2026-03-01 17:42:23 | INFO     | __main__ |   Gate [§904 Specimen         ] ✗ BLOCKED
+2026-03-01 17:42:23 | INFO     | __main__ |     → Pillar 1 classification errors (2) — scope unstable. §1401. | Identification indefinite in one or more classes — §1207/§1209 cannot run on indefinite goods/services. §1402.
+2026-03-01 17:42:23 | INFO     | __main__ | [Stage 6] Running 2nd-half engines.
+2026-03-01 17:42:23 | INFO     | __main__ |   Status: blocked_at_search_gate | Ran: []
+2026-03-01 17:42:23 | INFO     | __main__ |   Saved → results\87654321_20260301T121223Z.json
+2026-03-01 17:42:23 | INFO     | __main__ | ============================================================
+2026-03-01 17:42:23 | INFO     | __main__ | PIPELINE COMPLETE — blocked_at_search_gate
+2026-03-01 17:42:23 | INFO     | __main__ | ============================================================
+2026-03-01 19:37:57 | INFO     | run_pipeline | ============================================================
+2026-03-01 19:37:57 | INFO     | run_pipeline | USPTO TRADEMARK EXAMINATION PIPELINE — START
+2026-03-01 19:37:57 | INFO     | run_pipeline | ============================================================
+2026-03-01 19:37:57 | INFO     | run_pipeline | [Stage 0] Input Layer — parsing & normalising.
+2026-03-01 19:37:57 | INFO     | run_pipeline |   Mark: 'Topple World' | Serial: 99094422 | Classes: 1
+2026-03-01 19:37:57 | INFO     | run_pipeline | [Stage 1] Pillar 1 — §1401 Classification Engine.
+2026-03-01 19:37:57 | INFO     | run_pipeline |   Errors: 2
+2026-03-01 19:37:57 | INFO     | run_pipeline | [Stage 2] Pillar 2 — §1402 Identification Engine.
+2026-03-01 19:37:57 | INFO     | run_pipeline |   Classes processed: 1
+2026-03-01 19:37:57 | INFO     | run_pipeline | [Stage 3] Pillar 3 — §1403 Multi-Class Engine.
+2026-03-01 19:37:57 | INFO     | run_pipeline |   Compliant: True | Errors: 0
+2026-03-01 19:37:57 | INFO     | run_pipeline | [Stage 4] Building PipelineState (1st→2nd half bridge).
+2026-03-01 19:37:57 | INFO     | run_pipeline |   Structurally clean: False
+2026-03-01 19:37:57 | INFO     | run_pipeline | [Stage 5] StructuralToSubstantiveGate — computing gate flags.
+2026-03-01 19:37:57 | INFO     | run_pipeline |   Gate [§704.02 Search        ] ✗ BLOCKED
+2026-03-01 19:37:57 | INFO     | run_pipeline |     → Pillar 1 classification errors (2) — scope unstable. §1401.
+2026-03-01 19:37:57 | INFO     | run_pipeline |   Gate [§1207/§1209 Subst.    ] ✗ BLOCKED
+2026-03-01 19:37:57 | INFO     | run_pipeline |     → Pillar 1 classification errors (2) — scope unstable. §1401. | Identification indefinite in one or more classes — §1207/§1209 cannot run on indefinite goods/services. §1402.
+2026-03-01 19:37:57 | INFO     | run_pipeline |   Gate [§904 Specimen         ] ✗ BLOCKED
+2026-03-01 19:37:57 | INFO     | run_pipeline |     → Pillar 1 classification errors (2) — scope unstable. §1401. | Identification indefinite in one or more classes — §1207/§1209 cannot run on indefinite goods/services. §1402.
+2026-03-01 19:37:57 | INFO     | run_pipeline | [Stage 6] Running 2nd-half engines.
+2026-03-01 19:37:57 | INFO     | run_pipeline |   Status: blocked_at_search_gate | Ran: []
+2026-03-01 19:37:57 | INFO     | run_pipeline |   Saved → results\99094422_20260301T140757Z.json
+2026-03-01 19:37:57 | INFO     | run_pipeline | ============================================================
+2026-03-01 19:37:57 | INFO     | run_pipeline | PIPELINE COMPLETE — blocked_at_search_gate
+2026-03-01 19:37:57 | INFO     | run_pipeline | ============================================================
