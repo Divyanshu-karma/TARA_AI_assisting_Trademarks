@@ -1,0 +1,77 @@
+{
+  "pipeline_version": "1.0.0",
+  "authority_chain": [
+    "TMEP \u00a71401",
+    "TMEP \u00a71402",
+    "TMEP \u00a71403",
+    "TMEP \u00a7704.02",
+    "TMEP \u00a71207.01",
+    "TMEP \u00a71209",
+    "TMEP \u00a7904 (stub)",
+    "Decision Aggregator (stub)"
+  ],
+  "application_serial": "99094422",
+  "mark_text": "Topple World",
+  "structurally_clean": false,
+  "pillar1_summary": {
+    "total": 10,
+    "errors": 2,
+    "warnings": 0,
+    "info": 4,
+    "ok": 4
+  },
+  "pillar2_classes": [
+    "035"
+  ],
+  "pillar3_summary": {
+    "is_multi_class_compliant": true,
+    "total_errors": 0,
+    "partial_refusal_classes": [],
+    "division_candidates": [],
+    "fee_alignment_status": "aligned"
+  },
+  "gate_flags": {
+    "cleared_for_search": false,
+    "cleared_for_substantive": false,
+    "cleared_for_specimen": false,
+    "search_block_reason": "Pillar 1 classification errors (2) \u2014 scope unstable. \u00a71401.",
+    "substantive_block_reason": "Pillar 1 classification errors (2) \u2014 scope unstable. \u00a71401. | Identification indefinite in one or more classes \u2014 \u00a71207/\u00a71209 cannot run on indefinite goods/services. \u00a71402.",
+    "specimen_block_reason": "Pillar 1 classification errors (2) \u2014 scope unstable. \u00a71401. | Identification indefinite in one or more classes \u2014 \u00a71207/\u00a71209 cannot run on indefinite goods/services. \u00a71402."
+  },
+  "search_result": null,
+  "similarity_result": null,
+  "descriptiveness_result": null,
+  "specimen_result": null,
+  "aggregated_refusals": null,
+  "gate_status": {
+    "search": {
+      "cleared": false,
+      "reason": "Pillar 1 classification errors (2) \u2014 scope unstable. \u00a71401.",
+      "legal_authority": "\u00a7704.02"
+    },
+    "substantive": {
+      "cleared": false,
+      "reason": "Pillar 1 classification errors (2) \u2014 scope unstable. \u00a71401. | Identification indefinite in one or more classes \u2014 \u00a71207/\u00a71209 cannot run on indefinite goods/services. \u00a71402.",
+      "legal_authority": "\u00a71207 / \u00a71209"
+    },
+    "specimen": {
+      "cleared": false,
+      "reason": "Pillar 1 classification errors (2) \u2014 scope unstable. \u00a71401. | Identification indefinite in one or more classes \u2014 \u00a71207/\u00a71209 cannot run on indefinite goods/services. \u00a71402.",
+      "legal_authority": "\u00a7904"
+    },
+    "procedural": {
+      "issues": [
+        "signature_missing"
+      ],
+      "legal_authority": "\u00a7800"
+    }
+  },
+  "pipeline_status": "blocked_at_search_gate",
+  "run_engines": [],
+  "blocked_engines": [
+    "\u00a7704.02",
+    "\u00a71207",
+    "\u00a71209",
+    "\u00a7904"
+  ]
+}
